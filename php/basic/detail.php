@@ -22,8 +22,8 @@
 <body>
   <div>
     <div>
-        <a href="./edit.php">Edit</a>
-        <a href="./delete.php">Delete</a>
+        <a href="./edit.php?id=<?php echo($row['id']);?>">Edit</a>
+        <a href="./delete.php?id=<?php echo($row['id']);?>">Delete</a>
     </div>
     <div class="product">
         <h4 class="name"><?php echo($row['name']);?></h4>
