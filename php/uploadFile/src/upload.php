@@ -27,7 +27,7 @@ class Upload
             if ($this->fileError === 0) {
                 if ($this->fileSize < 1000000) {
                     $fileNameNew = uniqid('', true) . $this->fileName;
-                    $fileDestination = 'src/uploads/' . $fileNameNew;
+                    $fileDestination = 'src/Uploads/' . $fileNameNew;
                     move_uploaded_file($this->fileTmpName, $fileDestination);
                     echo ('Location: index.php');
                 } else {
