@@ -1,0 +1,16 @@
+HOW TO CREATE NEW FILE in comman line - cach tao file moi trong cmd: 
+copy con test.txt  //press Enter (create file with name test.txt - tao file voi ten test.txt)
+content here  //press Ctrl + Z then press Enter to save file (this line is content of file - dong nay la noi dung cua file)
+
+HOW TO EDIT FILE - cach sua noi dung file:
+notepad test.txt //press Enter
+the press Ctrl + S to save and Alt + F4 to exit (sua xong bam Ctrl + S de luu va Alt + F4 de thoat)
+
+Method 2 - cach 2:
+echo text content > test.txt //press Enter
+
+Add more content in file - cach them noi dung trong file:
+echo text more content >> test.txt //press Enter
+
+Method 3:
+notepad test.txt //press Enter
