@@ -1,0 +1,44 @@
+@media only screen and (max-width: 900px) {
+  .cart {
+    width: 25%;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .cart {
+    width: 33%;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .cart {
+    width: 50%;
+  }
+  .menuLeft {
+    width: 0rem;
+  }
+  .content {
+    padding: 0;
+  }
+  .group .detail {
+    display: block;
+  }
+  .detail .image {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 300px) {
+  .cart {
+    width: 100%;
+  }
+  .menuLeft {
+    width: 0rem;
+  }
+  .content {
+    padding: 0;
+  }
+  .group .detail {
+    display: block;
+  }
+  .detail .image {
+    width: 100%;
+  }
+}
